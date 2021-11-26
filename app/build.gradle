@@ -76,8 +76,7 @@ dependencies {
     implementation 'androidx.activity:activity-ktx:1.4.0'
 
 
-//    // An HTTP & HTTP/2 client - OkHttp
-//   //implementation "com.squareup.okhttp3:okhttp:$okhttp"
+//   
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttp"
 //
 
@@ -88,16 +87,11 @@ dependencies {
     implementation 'com.tinder.scarlet:scarlet:0.1.12'
 
 
-// Optional
-    // implementation "com.tinder.scarlet:scarlet-websocket-okhttp:0.1.12"
-//    implementation "com.tinder.scarlet:scarlet-stream-adapter-rxjava2:0.2.4"
-//    implementation "com.tinder.scarlet:scarlet-message-adapter-moshi:0.2.4"
-//    implementation "com.tinder.scarlet:scarlet-lifecycle-android:0.2.4"
 
     implementation 'com.squareup.moshi:moshi-kotlin:1.12.0'
     kapt 'com.squareup.moshi:moshi-kotlin-codegen:1.12.0'
     implementation 'com.tinder.scarlet:websocket-okhttp:0.1.12'
-    // https://mvnrepository.com/artifact/com.tinder.scarlet/lifecycle-android
+   
     implementation 'com.tinder.scarlet:lifecycle-android:0.1.12'
     implementation 'com.tinder.scarlet:message-adapter-moshi:0.1.12'
     implementation 'com.tinder.scarlet:stream-adapter-coroutines:0.1.12'
