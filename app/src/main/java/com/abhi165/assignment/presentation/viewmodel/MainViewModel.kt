@@ -1,6 +1,5 @@
 package com.abhi165.assignment.presentation.viewmodel
 
-import android.util.Log
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
@@ -12,17 +11,12 @@ import com.abhi165.assignment.domain.usecase.ConnectionStatusUseCase
 import com.abhi165.assignment.domain.usecase.GetTransactionUseCase
 import com.abhi165.assignment.domain.usecase.SubscribeToTransactionUseCase
 import com.abhi165.assignment.utill.Constant
-import com.abhi165.assignment.utill.Resource
 import com.tinder.scarlet.WebSocket
 import dagger.hilt.android.lifecycle.HiltViewModel
-import io.reactivex.Scheduler
-import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
