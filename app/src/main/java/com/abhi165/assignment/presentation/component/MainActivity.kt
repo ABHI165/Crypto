@@ -70,7 +70,7 @@ class MainActivity : ComponentActivity() {
                        }
                        isConnected ==Constant.CLOSED -> {
                            Text(
-                               text = "Disconnected",
+                               text = "Closed",
                                textAlign = TextAlign.Center,
                                style = MaterialTheme.typography.h6,
                                        color = Color.Red,
@@ -80,7 +80,7 @@ class MainActivity : ComponentActivity() {
 
                         isConnected ==Constant.FAILED -> {
                             Text(
-                                text = "Failed",
+                                text = "Disconnected",
                                 textAlign = TextAlign.Center,
                                 style = MaterialTheme.typography.h6,
                                 color = Color.Red,
